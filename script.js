@@ -1,36 +1,30 @@
 // this is where the brain lives!!
 
-let count = 0; // First Variable!!
+let appleCounter = 0; // First Variable!!
+let pearCounter = 0; // Second Variable!!
+let strawberryCounter = 0; // Third Variable!!
+let potatoCounter = 0; // Fourth Variable!!
+let tomatoCounter = 0; // Fifth Variable!!
 
-function appleCounter() {
-  count = count + 1;
- document.getElementById("apple").innerHTML = count;
-}
- 
-let count2 = 0; // Second Variable!
-
-function pearCounter() {
-  count2 = count2 + 1;
-  document.getElementById("pear").innerHTML = count2;
-}
-
-let count3 = 0; // Third Variable!!
-
-function strawberryCounter() {
-  count3 = count3 + 1;
-  document.getElementById("strawberry").innerHTML = count3;
-}
-  let count4 = 0; // Fourth Variable!!
-
-  function potatoCounter() {
-    count4 = count4 + 1;
-    document.getElementById("potato").innerHTML = count4;
+function groserycounter(fruta) {
+  if(fruta === 'apple') {
+    appleCounter = appleCounter+ 1;
+    document.getElementById("apple").innerHTML =appleCounter;
   }
-
-  let count5 = 0; // Fifth Variable!!
-
-  function tomatoCounter() {
-    count5 = count5 + 1;
-    document.getElementById("tomato").innerHTML = count5;
+  else if(fruta === 'pear') { 
+   pearCounter = pearCounter+ 1;
+    document.getElementById("pear").innerHTML = pearCounter;
   }
-
+  else if(fruta === 'strawberry') {
+    strawberryCounter = strawberryCounter+ 1;
+    document.getElementById("strawberry").innerHTML = strawberryCounter;
+  }
+  else if(fruta === 'potato') {
+    potatoCounter = potatoCounter+ 1;
+    document.getElementById("potato").innerHTML = potatoCounter;
+  }
+  else {
+    tomatoCounter = tomatoCounter+ 1;
+    document.getElementById("tomato").innerHTML = tomatoCounter;
+  }
+}
