@@ -8,23 +8,46 @@ let tomatoCounter = 0; // Fifth Variable!!
 
 function groserycounter(fruta) {
   if(fruta === 'apple') {
-    appleCounter = appleCounter+ 1;
+    appleCounter = appleCounter + 1;
     document.getElementById("apple").innerHTML =appleCounter;
   }
   else if(fruta === 'pear') { 
-   pearCounter = pearCounter+ 1;
+   pearCounter = pearCounter + 1;
     document.getElementById("pear").innerHTML = pearCounter;
   }
   else if(fruta === 'strawberry') {
-    strawberryCounter = strawberryCounter+ 1;
+    strawberryCounter = strawberryCounter + 1;
     document.getElementById("strawberry").innerHTML = strawberryCounter;
   }
   else if(fruta === 'potato') {
-    potatoCounter = potatoCounter+ 1;
+    potatoCounter = potatoCounter + 1;
     document.getElementById("potato").innerHTML = potatoCounter;
   }
   else {
-    tomatoCounter = tomatoCounter+ 1;
+    tomatoCounter = tomatoCounter + 1;
+    document.getElementById("tomato").innerHTML = tomatoCounter;
+  }
+}
+
+function substracGrosery(fruta) {
+  if(fruta === 'apple') {
+    appleCounter = appleCounter - 1;
+    document.getElementById("apple").innerHTML = appleCounter;
+  }
+  else if(fruta === 'pear') {
+    pearCounter = pearCounter - 1;
+    document.getElementById("pear").innerHTML = pearCounter;
+  }
+  else if(fruta === 'strawberry') {
+    strawberryCounter = strawberryCounter - 1;
+    document.getElementById("strawberry").innerHTML = strawberryCounter;
+  }
+  else if(fruta === 'potato') {
+    potatoCounter = potatoCounter - 1;
+    document.getElementById("potato").innerHTML = potatoCounter;
+  }
+  else {
+    tomatoCounter = tomatoCounter - 1;
     document.getElementById("tomato").innerHTML = tomatoCounter;
   }
 }
