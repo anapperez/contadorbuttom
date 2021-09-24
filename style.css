@@ -1,0 +1,91 @@
+* {
+    background-color: #fffff0;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 48px;
+    text-align: center;
+    color: #4b0082;
+}
+
+section {
+    text-align: center;
+}
+
+#apple {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    color: #4b0082;
+}
+
+#pear {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 25px;
+   color: #4b0082;
+}
+
+#strawberry {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    color:#4b0082;
+}
+
+#potato {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    color:#4b0082;
+}
+
+#tomato {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3+25px;
+    color:#4b0082;
+}
+
+.btn {
+    border: 3px solid rgba(100,100,100,0.1);
+    margin-bottom: 100px;
+    padding: 20px;
+    width: 200 px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: ##000000;
+    background-size: 200px;
+
+}
+
+.btn:hover {
+    background-position: right;
+}
+
+.btn1 {
+   background-image: linear-gradient(to left, #faf0e6, #b22222, #faf0e6);
+ }
+
+ .btn2 {
+     background-image: linear-gradient(to left,	#ffffe0, #008080,#ffffe0);
+ }
+
+ .btn3 {
+     background-image: linear-gradient(to left, #f5fffa, #c71585, #f5fffa);
+
+ }
+
+ .btn4 {
+     background-image: linear-gradient(to left, #f0f8ff, #191970, #f0ffff);
+ }
+
+ .btn5 {
+     background-image: linear-gradient(to left, #f5f5f5, #ff6347, #f5f5f5);
+ }
+
+.btn6 {
+    background-image: linear-gradient(to left, #f0ffff, #00008b, #f0ffff);
+}
+
+footer {
+    text-align: right;
+}
