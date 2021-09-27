@@ -52,7 +52,7 @@ section {
     font-size: 16px;
     border-radius: 8px;
     cursor: pointer;
-    color: ##000000;
+    color: #000000;
     background-size: 200px;
 
 }
@@ -89,3 +89,22 @@ section {
 footer {
     text-align: right;
 }
+
+.subs {
+    border: 3px solid rgba(100,100,100,0.1);
+    margin-bottom: 100px;
+    padding: 20px;
+    width: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    color: #000;
+    background-size: 200px;
+}
+
+.subs {
+    background-position: right;
+}
+ .subs {
+     background-image: linear-gradient(to left, #fffff0, #e6e6fa, #fffff0);
+ }
