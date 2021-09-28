@@ -30,23 +30,23 @@ function groserycounter(fruta) {
 }
 
 function substracGrosery(fruta) {
-  if(fruta === 'apple') {
+  if(fruta === 'apple' && appleCounter > 0) {
     appleCounter = appleCounter - 1;
     document.getElementById("apple").innerHTML = appleCounter;
   }
-  else if(fruta === 'pear') {
+  else if(fruta === 'pear' && pearCounter > 0) {
     pearCounter = pearCounter - 1;
     document.getElementById("pear").innerHTML = pearCounter;
   }
-  else if(fruta === 'strawberry') {
+  else if(fruta === 'strawberry' && strawberryCounter > 0) {
     strawberryCounter = strawberryCounter - 1;
     document.getElementById("strawberry").innerHTML = strawberryCounter;
   }
-  else if(fruta === 'potato') {
+  else if(fruta === 'potato' && potatoCounter > 0) {
     potatoCounter = potatoCounter - 1;
     document.getElementById("potato").innerHTML = potatoCounter;
   }
-  else {
+  else if(fruta === 'tomato' && tomatoCounter > 0) {
     tomatoCounter = tomatoCounter - 1;
     document.getElementById("tomato").innerHTML = tomatoCounter;
   }
